@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    background: #fafafa; 
+}
+
+.logo {
+    background: white;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+ background: #FAAC58;
+ width: 200px;
+ float: right;
+ font-family: "Garamond";
+ font-size: 16px;
+ color: white;
+}
+
+.sidebar a:link {color: #E86421;
+    font-family: "Garamond";
+    font-size: 16px;
+    text-decoration: none;
+ }
+
+.sidebar a:visited {color: #E86421;
+    font-family: "Garamond";
+    font-size: 16px;
+    text-decoration: none;
+ }
+
+.sidebar a:hover {color: white;
+}
+
+.sidebar ol li {color: #E86421;
+font-family: "Garamond";
+font-size: 14px;
+}
+
+.mainchart {color: white;}
+
+.header {
+    background: #E86421;
+    padding: 15px;
+    width: 100%;
+    font-family: "Garamond", Bold;
+    font-size: 28px;
+    text-indent: 50px;
+    box-sizing: border-box;
+}
+
+.introtext {
+    background: #fafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    font-family: "Garamond";
+    font-size: 22px;
+    }
+
+.econfollowtext {
+    background: #fafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    font-family: "Garamond";
+    font-size: 20px;
+    color: #849120;
+    }
+
+.edufollowtext {
+    background: #fafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    font-family: "Garamond";
+    font-size: 20px;
+    color: #5A5284;
+    }
+
+.healthfollowtext {
+    background: #fafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    font-family: "Garamond";
+    font-size: 20px;
+    color: #005293;
+    }
+
+.famfollowtext {
+    background: #fafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    font-family: "Garamond";
+    font-size: 20px;
+    color: #E9AF1D;
+    }
