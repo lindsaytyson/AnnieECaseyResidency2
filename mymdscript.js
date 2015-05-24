@@ -8,7 +8,7 @@ $(function () {
             spacingBottom: 30
         },
         title: {
-            text: 'Massachusetts Economic Well-Being Data',
+            text: 'Maryland Economic Well-Being Data',
             style: {"fontFamily":"'Garamond'", fontWeight: 800,"fontSize":'22px'}
         },
         xAxis: {
@@ -76,7 +76,7 @@ $(function () {
             spacingBottom: 30
         },
         title: {
-            text: 'Massachusetts Education Data',
+            text: 'Maryland Education Data',
             style: {"fontFamily":"'Garamond'", fontWeight: 800, "fontSize":'22px'}
         },
         xAxis: {
@@ -143,7 +143,7 @@ $(function () {
             
         },
         title: {
-            text: 'Massachusetts Health Data',
+            text: 'Maryland Health Data',
             style: {"fontFamily":"'Garamond'", fontWeight: 800,"fontSize":'22px'}
         },
         xAxis: {
@@ -210,7 +210,7 @@ $(function () {
     
         },
         title: {
-            text: 'Massachusetts Family & Community Data',
+            text: 'Maryland Family & Community Data',
             style: {"fontFamily":"'Garamond'", fontWeight: 800,"fontSize":'22px'}
         },
         xAxis: {

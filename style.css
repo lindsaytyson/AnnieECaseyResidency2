@@ -15,11 +15,11 @@ body{
 }
 
 .sidebar {
- background: #FAAC58;
- width: 20%;
+ background: #FBC486;
+ width: 15%;
  float: right;
  font-family: "Garamond";
- font-size: 16px;
+ font-size: 18px;
  color: white;
 }
 
@@ -54,7 +54,7 @@ font-size: 14px;
 
 .introtext {
     background: #fafafa;
-    width: 80%;
+    width: 85%;
     padding-left: 50px;
     padding-right: 50px;
     overflow: hidden;
@@ -109,12 +109,14 @@ font-size: 14px;
     padding-right: 50px;
     padding-top: 50px;
     overflow: hidden;
-    width: 80%;
+    width: 85%;
     box-sizing: border-box;
     }
 
-.allstateinfo {
-    width: 80%
+
+.allleft {
+    width: 85%;
+    float:left
 }
 .statemap {
     background: #fafafa;
@@ -142,12 +144,15 @@ font-size: 14px;
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
 }
 
+.allcharts{
+clear:both;
+}
 
-.stateranks p1{text-indent: 10px;}
+.stateranks p1{text-indent: 30px;}
 .stateranks p2{color: #5A5284;
 text-indent: 10px;}
 .stateranks p3{color: #005293;
@@ -156,6 +161,7 @@ text-indent: 10px}
 text-indent: 10px}
 
 .stateranks ul li {list-style-type: none}
+
 
 .highcharts-container svg text{
     font-family: "Garamond";
