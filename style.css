@@ -127,3 +127,7 @@ text-indent: 10px}
 text-indent: 10px}
 
 .stateranks ul li {list-style-type: none}
+
+.highcharts-container svg text{
+    font-family: "Garamond";
+}
