@@ -70,7 +70,7 @@ $(function () {
             backgroundColor: 'white'
         },
         title: {
-            text: 'Massachusetts Education Well-Being Data',
+            text: 'Massachusetts Education Data',
             style: {"fontFamily":"'Garamond'", fontWeight: 500, "fontSize":'22px'}
         },
         xAxis: {
@@ -134,7 +134,7 @@ $(function () {
             
         },
         title: {
-            text: 'Massachusetts Health Well-Being Data',
+            text: 'Massachusetts Health Data',
             style: {"fontFamily":"'Garamond'", fontWeight: 500,"fontSize":'22px'}
         },
         xAxis: {
@@ -198,7 +198,7 @@ $(function () {
             
         },
         title: {
-            text: 'Massachusetts Family & Community Well-Being Data',
+            text: 'Massachusetts Family & Community Data',
             style: {"fontFamily":"'Garamond'", fontWeight: 500,"fontSize":'22px'}
         },
         xAxis: {

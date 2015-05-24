@@ -113,13 +113,17 @@ font-size: 14px;
     box-sizing: border-box;
     }
 
+.allstateinfo {
+    width: 80%
+}
 .statemap {
     background: #fafafa;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
     overflow: hidden;
-    width: 80%;
+    width: 40%;
+    float: left;
     box-sizing: border-box;
     }
 
@@ -128,7 +132,8 @@ font-size: 14px;
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    width: 80%;
+    width: 60%;
+    float: right; 
     box-sizing: border-box;
 }
 
