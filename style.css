@@ -3,21 +3,33 @@ body{
     background: #fafafa; 
 }
 
-.logo {
-    background: white;
-    width: 100%;
-    margin: 0;
+.header {
+    background: #E86421;
     padding: 15px;
+    width: 100%;
+    font-family: "Garamond", Bold;
+    font-size: 36px;
+    color: white;
+    text-indent: 50px;
     box-sizing: border-box;
 }
 
 .sidebar {
  background: #FAAC58;
- width: 200px;
+ width: 20%;
  float: right;
  font-family: "Garamond";
  font-size: 16px;
  color: white;
+}
+
+.logo {
+    background: white;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .sidebar a:link {color: #E86421;
@@ -40,25 +52,15 @@ font-family: "Garamond";
 font-size: 14px;
 }
 
-.mainchart {color: white;}
-
-.header {
-    background: #E86421;
-    padding: 15px;
-    width: 100%;
-    font-family: "Garamond", Bold;
-    font-size: 28px;
-    text-indent: 50px;
-    box-sizing: border-box;
-}
-
 .introtext {
     background: #fafafa;
+    width: 80%;
     padding-left: 50px;
     padding-right: 50px;
     overflow: hidden;
     font-family: "Garamond";
     font-size: 22px;
+    box-sizing: border-box;
     }
 
 .econfollowtext {
@@ -101,24 +103,46 @@ font-size: 14px;
     color: #E9AF1D;
     }
 
+.mainchart {
+    background: #fafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+    width: 80%;
+    box-sizing: border-box;
+    }
+
 .statemap {
     background: #fafafa;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
     overflow: hidden;
-    width: 50%;
+    width: 80%;
+    box-sizing: border-box;
     }
 
 .stateranks {
-    font-family: "Garamond";
+    font-family: " Adobe Pro Garamond";
     font-size: 20px;
     padding-left: 50px;
+    padding-right: 50px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.standardp {
+    font-family: "Adobe Pro Garamond";
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 80%;
+    box-sizing: border-box;
 }
 
 
-.stateranks p1{color: #849120;
-text-indent: 10px;}
+.stateranks p1{text-indent: 10px;}
 .stateranks p2{color: #5A5284;
 text-indent: 10px;}
 .stateranks p3{color: #005293;
