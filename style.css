@@ -100,3 +100,30 @@ font-size: 14px;
     font-size: 20px;
     color: #E9AF1D;
     }
+
+.statemap {
+    background: #fafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+    width: 50%;
+    }
+
+.stateranks {
+    font-family: "Garamond";
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+
+.stateranks p1{color: #849120;
+text-indent: 10px;}
+.stateranks p2{color: #5A5284;
+text-indent: 10px;}
+.stateranks p3{color: #005293;
+text-indent: 10px}
+.stateranks p4{color: #E9AF1D;
+text-indent: 10px}
+
+.stateranks ul li {list-style-type: none}
