@@ -15,13 +15,119 @@ body{
 }
 
 .sidebar {
- background: #FBC486;
+ background: #E86421;
  width: 15%;
  float: right;
  font-family: "Garamond";
  font-size: 18px;
- color: white;
+ color: #FBC486;
+ padding-right: 15px;
+ box-sizing: border-box;
 }
+
+/*----- Dropdown-----*/
+.clearfix:after{
+    display: block;
+    clear:both;
+}
+
+/*----- Dropdown Position on Page-----*/
+.menu-wrap {
+    width: 100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+
+
+.menu {
+    background: #e9e9e9;
+    width:1000px;
+    margin: 0px auto;   
+}
+
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Garamond';
+}
+
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+    
+/*----- Arrow Formatting-----*/
+.menu .arrow {
+    font-size:8px;
+    line-height: 0%;
+}
+
+/*----- Formatting of 'Select a State' Text -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:14px;
+}
+
+.menu ul li a{
+    color: #E86421;
+    text-decoration: none
+}
+
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#e9e9e9;
+}
+
+/*----- Moves Sub Menu Items Under Menu -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#fafafa;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:13px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    padding-right: 10px;
+    display:block;
+    box-sizing: border-box;
+    list-style: none;
+    color: #E86421;
+    text-decoration: none;
+}
+
+.sub-menu li a:hover {
+    color: #FBC486;
+}
+
+/*----- End Menu-----*/
 
 .logo {
     background: white;
@@ -32,19 +138,19 @@ body{
     box-sizing: border-box;
 }
 
-.sidebar a:link {color: #E86421;
+.sidebar a:link {color: white;
     font-family: "Garamond";
     font-size: 16px;
     text-decoration: none;
  }
 
-.sidebar a:visited {color: #E86421;
+.sidebar a:visited {color: white;
     font-family: "Garamond";
     font-size: 16px;
     text-decoration: none;
  }
 
-.sidebar a:hover {color: white;
+.sidebar a:hover {color: #FBC486;
 }
 
 .sidebar ol li {color: #E86421;
@@ -54,7 +160,7 @@ font-size: 14px;
 
 .introtext {
     background: #fafafa;
-    width: 85%;
+    width: 100%;
     padding-left: 50px;
     padding-right: 50px;
     overflow: hidden;
@@ -109,23 +215,22 @@ font-size: 14px;
     padding-right: 50px;
     padding-top: 50px;
     overflow: hidden;
-    width: 85%;
+    width: 100%;
     box-sizing: border-box;
     }
 
 
 .allleft {
-    width: 85%;
+    width: 100%;
     float:left
 }
 .statemap {
     background: #fafafa;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-right: 50px;
-    padding-top: 50px;
-    overflow: hidden;
-    width: 40%;
-    float: left;
+    padding-top: 40px;
+    width: 35%;
+    float: right;
     box-sizing: border-box;
     }
 
@@ -134,8 +239,8 @@ font-size: 14px;
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    width: 60%;
-    float: right; 
+    width: 65%;
+    float: left;
     box-sizing: border-box;
 }
 
