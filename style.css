@@ -14,16 +14,18 @@ body{
     box-sizing: border-box;
 }
 
-.sidebar {
- background: #E86421;
- width: 15%;
- float: right;
- font-family: "Garamond";
- font-size: 18px;
- color: #FBC486;
- padding-right: 15px;
- box-sizing: border-box;
-}
+    /*----- Residual Sidebar Code
+    .sidebar {
+    background: #E86421;
+    width: 15%;
+    float: right;
+    font-family: "Garamond";
+    font-size: 18px;
+    color: #FBC486;
+    padding-right: 15px;
+    box-sizing: border-box;
+    }
+    -----*/
 
 /*----- Dropdown-----*/
 .clearfix:after{
@@ -42,7 +44,7 @@ body{
 .menu {
     background: #e9e9e9;
     width:1000px;
-    margin: 0px auto;   
+    margin: 0px auto;  
 }
 
 .menu li {
@@ -138,25 +140,27 @@ body{
     box-sizing: border-box;
 }
 
-.sidebar a:link {color: white;
-    font-family: "Garamond";
-    font-size: 16px;
-    text-decoration: none;
- }
+    /*----- Residual Sidebar Code
+    .sidebar a:link {color: white;
+        font-family: "Garamond";
+        font-size: 16px;
+        text-decoration: none;
+        }
 
-.sidebar a:visited {color: white;
-    font-family: "Garamond";
-    font-size: 16px;
-    text-decoration: none;
- }
+    .sidebar a:visited {color: white;
+        font-family: "Garamond";
+        font-size: 16px;
+        text-decoration: none;
+        }
 
-.sidebar a:hover {color: #FBC486;
-}
+    .sidebar a:hover {color: #FBC486;
+        }
 
-.sidebar ol li {color: #E86421;
-font-family: "Garamond";
-font-size: 14px;
-}
+    .sidebar ol li {color: #E86421;
+        font-family: "Garamond";
+        font-size: 14px;
+        }
+        -----*/
 
 .introtext {
     background: #fafafa;
@@ -164,8 +168,8 @@ font-size: 14px;
     padding-left: 50px;
     padding-right: 50px;
     overflow: hidden;
-    font-family: "Garamond";
-    font-size: 22px;
+    font-family: "Adobe Pro Garamond";
+    font-size: 20px;
     box-sizing: border-box;
     }
 
