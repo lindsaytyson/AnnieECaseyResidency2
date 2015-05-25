@@ -60,7 +60,7 @@ body{
 
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
-    color:#be5b70;
+    color:#E86421;
 }
     
 /*----- Arrow Formatting-----*/
@@ -169,7 +169,17 @@ body{
     padding-right: 50px;
     overflow: hidden;
     font-family: "Adobe Pro Garamond";
-    font-size: 20px;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+.introheadertext {
+    color: #E86421;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    font-family: "Garamond";
+    font-size: 22px;
     box-sizing: border-box;
     }
 
@@ -179,7 +189,7 @@ body{
     padding-right: 50px;
     overflow: hidden;
     font-family: "Garamond";
-    font-size: 20px;
+    font-size: 22px;
     color: #849120;
     }
 
@@ -189,7 +199,7 @@ body{
     padding-right: 50px;
     overflow: hidden;
     font-family: "Garamond";
-    font-size: 20px;
+    font-size: 22px;
     color: #5A5284;
     }
 
@@ -199,7 +209,7 @@ body{
     padding-right: 50px;
     overflow: hidden;
     font-family: "Garamond";
-    font-size: 20px;
+    font-size: 22px;
     color: #005293;
     }
 
@@ -209,7 +219,7 @@ body{
     padding-right: 50px;
     overflow: hidden;
     font-family: "Garamond";
-    font-size: 20px;
+    font-size: 22px;
     color: #E9AF1D;
     }
 
