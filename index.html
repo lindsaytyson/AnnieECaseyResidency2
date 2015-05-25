@@ -6,6 +6,7 @@
     <title> Annie E. Casey Kids Count Data </title>
     <!-- Importing the Style Sheet -->
     <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="http://d3js.org/d3.v3.min.js"></script>
     <!-- In order to connect css to javascript, use terminal:
     Step 1: open terminal type cd, then space, then drag and drop folder into terminal 
     Step 2: Type python -m SimpleHTTPServer
@@ -102,7 +103,7 @@
         <p> <strong> About Kids Count </strong> </p>
     </div> 
     <div class = "introtext">
-        <p> A project of the Annie E. Casey Foundation, Kids Count is the premier source of data on child and family well-being in the United States. The hexogram map below illustrates how states rank on overall child well-being. The overall rank is a composite index derived from the combined data across the four domains: (1) Economic Well-Being, (2) Education, (3) Health, and (4) Family and Community. The map below also provides a view of how states perform across each individual domain.
+        <p> A project of the Annie E. Casey Foundation, Kids Count is the premier source of data on child and family well-being in the United States. The circle map below illustrates how states rank on overall child well-being. The overall rank is a composite index derived from the combined data across the four domains: (1) Economic Well-Being, (2) Education, (3) Health, and (4) Family and Community. The map below also provides a view of how states perform across each individual domain.
         </p>
         
     </div>
@@ -110,7 +111,81 @@
    
     <div class="mainchart">
         <!--Hex Map-->
-        <img src="StaticHexMap.png" width=100%> 
+        <svg viewbox= "0 0 800 600">
+
+<br>
+
+<select id="domains">
+	<option value="overall" selected="selected">Overall Rank</option>
+	<option value="econ">Economic Rank</option>
+	<option value="health">Health Rank</option>
+	<option value="edu">Education Rank</option>
+	<option value="famcomm">Family and Community Rank</option>
+</select>
+
+<script>
+
+var data = d3.csv("data.csv", function(data) {
+
+console.log(data); 
+
+var circle = d3.select("body")
+				.select("svg")
+				.selectAll("circle")
+				.data(data)
+				.enter()
+				.append("circle")
+				.attr("cx", function(d){
+					return(d.cx)
+				})
+				.attr("cy", function(d){
+					return (d.cy)
+
+				})
+				.attr("r", 30)
+				.style("fill", function(d) {
+					return(d.overallColor)	
+				});
+
+var texts = d3.select("body")
+				.select("svg")
+				.selectAll("text")
+				.data(data)
+				.enter();
+				
+				texts.append("text")
+				.text( function(d) {
+					return(d.stateId)
+				})
+				.attr("x", function(d){
+					return(d.cx)
+				})
+				.attr("y", function(d){
+					return(d.cy)
+				})
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "10px")
+				.attr("text-anchor", "middle")
+				.attr("dy", "-.85em")
+				.attr("fill", "#222222");			
+				
+				texts.append("text")
+				.text( function(d) {
+					return(d.overallRank)
+				})
+				.attr("x", function(d){
+					return(d.cx)
+				})
+				.attr("y", function(d){
+					return(d.cy)
+				})
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "24px")
+				.attr("text-anchor", "middle")
+				.attr("dy", ".65em");		
+
+});
+</script>
     </div>
     
     
